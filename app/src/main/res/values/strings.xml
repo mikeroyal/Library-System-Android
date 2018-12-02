@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OtterLibrarySystem</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="white">#ffffff</color>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+
+    </string-array>
+
+    <string-array name="years">
+        <item>2015</item>
+
+
+
+    </string-array>
+
+</resources>
