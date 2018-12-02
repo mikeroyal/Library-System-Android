@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:id="@+id/createaccountlayout">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/smallerols"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewcreatelabel"
+        android:src="@drawable/createaccoutlabel"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/username_field"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:paddingLeft="15dp"
+        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:lines="1"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/textfield"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:paddingLeft="15dp"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:lines="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textfield"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/createaccount_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/createbutton"
+
+        android:layout_marginTop="20dp" />
+
+
+
+</LinearLayout>
